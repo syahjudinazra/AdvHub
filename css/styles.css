@@ -1,0 +1,460 @@
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* button color */
+  --color-1: #a36eba;
+  /* white color */
+  --color-2: #ffffff;
+  /* text color */
+  --color-3: #273150;
+  /* flow color */
+  --color-4: #f4864d;
+}
+/* first section */
+#navbar-title {
+  background-color: #fdfff0;
+}
+.navbar-menu {
+  margin-right: 47px;
+}
+
+.nav-item {
+  margin-right: 40px;
+}
+
+.btn-custom {
+  background-color: var(--color-1);
+  color: var(--color-2);
+  border-radius: 15px;
+  margin-top: 16px;
+}
+
+#cover-page {
+  background-image: linear-gradient(#fdfff0 40%, #ffffff 60%);
+  width: 100%;
+}
+
+.cover-birds {
+  position: absolute;
+  margin-inline: -288px;
+  margin-block: -10px;
+}
+
+.cover-title h1 {
+  padding: 7%;
+}
+
+.cover-title p {
+  padding: 7%;
+  margin-top: -75px;
+  color: var(--color-3);
+}
+
+.cover-button {
+  padding: 7%;
+}
+
+.cover-button button {
+  background-color: var(--color-1);
+  color: var(--color-2);
+  border-radius: 15px;
+  height: 72px;
+  width: 240px;
+}
+
+.cover-button img {
+  margin: 10px;
+}
+
+/* second section */
+#client-image {
+  align-items: center;
+}
+.client-title {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.client-logo {
+  display: inline-block;
+  margin: 50px;
+  justify-content: center;
+}
+
+.client-logo img {
+  margin-right: 82px;
+}
+
+/* three section */
+.flow-page {
+  background-image: url("/images/eclipse.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.flow-1 {
+  margin-block: 200px;
+  margin-inline: -45px;
+}
+
+.number1 {
+  display: block;
+  margin-inline: 65px;
+  margin-block: 60px;
+}
+
+.flow-2 {
+  margin-block: 79px;
+}
+
+.number2 {
+  display: block;
+  margin-inline: 150px;
+  margin-block: 60px;
+}
+
+.flow-2,
+h2 p {
+  color: var(--color-3);
+  text-align: center;
+}
+
+.flow-3 {
+  margin-block: 178px;
+  margin-inline: 65px;
+}
+
+.number3 {
+  display: block;
+  margin-inline: 65px;
+  margin-block: 60px;
+}
+
+/* four section */
+.features-page {
+  background-color: var(--color-1);
+  color: var(--color-2);
+  height: 70vh;
+}
+
+.features-content {
+  margin-block: 100px;
+  display: inline-block;
+}
+
+.features-content img {
+  margin-bottom: 20px;
+}
+
+.features-content h2 {
+  margin-bottom: 20px;
+}
+
+.features-content-2 {
+  margin-block: 100px;
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.features-content-2 img {
+  margin-bottom: 20px;
+}
+
+.features-content-2 h2 {
+  margin-bottom: 20px;
+}
+
+.features-content-block {
+  display: flex;
+}
+
+.features-content-3 {
+  margin-block: -65px;
+}
+
+.features-content-3 img {
+  margin-bottom: 20px;
+}
+
+.features-content-3 h2 {
+  margin-bottom: 20px;
+}
+
+.features-content-4 {
+  margin-block: -65px;
+  margin-left: 115px;
+}
+
+.features-content-4 img {
+  margin-bottom: 20px;
+}
+
+.features-content-4 h2 {
+  margin-bottom: 20px;
+}
+
+/* Testimonial section */
+#testimonials {
+  background-color: #fdfff0;
+  height: 70vh;
+}
+
+.testimonials-title {
+  text-align: center;
+  padding: 10rem 0 0;
+}
+
+.client-name {
+  float: left;
+  margin-top: 22px;
+  margin-left: 15px;
+  text-align: left;
+}
+
+.card-body {
+  margin-top: 50px;
+}
+
+.img-bg {
+  background-color: blueviolet;
+}
+
+.gtco-testimonials {
+  position: relative;
+  margin-top: 30px;
+}
+.gtco-testimonials h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 50px;
+}
+.gtco-testimonials .owl-stage-outer {
+  padding: 30px 0;
+}
+.gtco-testimonials .owl-nav {
+  display: none;
+}
+.gtco-testimonials .owl-dots {
+  text-align: center;
+}
+.gtco-testimonials .owl-dots span {
+  position: relative;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: block;
+  background: #fff;
+  border: 2px solid #01b0f8;
+  margin: 0 5px;
+}
+.gtco-testimonials .owl-dots .active {
+  box-shadow: none;
+}
+.gtco-testimonials .owl-dots .active span {
+  background: #01b0f8;
+  box-shadow: none;
+  height: 12px;
+  width: 12px;
+  margin-bottom: -1px;
+}
+.gtco-testimonials .card {
+  background: #fff;
+  box-shadow: 0px 12px 20px 0px #a7a7a7;
+  margin: 0 10px;
+  padding: 0 0px;
+  border-radius: 20px;
+  border: 0;
+}
+.gtco-testimonials .card .card-img-top {
+  max-width: 100px;
+  border-radius: 50%;
+  margin: 15px auto 0;
+  box-shadow: 0 8px 20px -4px #95abbb;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.gtco-testimonials .card h5 {
+  color: #01b0f8;
+  font-size: 21px;
+  line-height: 1.3;
+}
+.gtco-testimonials .card h5 span {
+  font-size: 18px;
+  color: #666;
+}
+.gtco-testimonials .card p {
+  font-size: 18px;
+  color: #555;
+}
+.gtco-testimonials .active {
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.gtco-testimonials .center {
+  opacity: 1;
+}
+.gtco-testimonials .center h5 {
+  font-size: 24px;
+}
+.gtco-testimonials .center h5 span {
+  font-size: 20px;
+}
+.gtco-testimonials .center .card-img-top {
+  max-width: 100%;
+  height: 68px;
+  width: 68px;
+  margin-left: 20px;
+}
+
+@media (max-width: 767px) {
+  .gtco-testimonials {
+    margin-top: 20px;
+  }
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  outline: 0;
+}
+.owl-carousel button.owl-dot {
+  outline: 0;
+}
+
+/* Team Section */
+#team {
+  background-color: #fdfff0;
+  height: 100vh;
+  background-image: url(/images/cloud2.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.cloud1 {
+  position: absolute;
+  margin-block: 15rem;
+  margin-inline: 0rem;
+}
+
+.team-section {
+  padding: 5rem 0 2rem;
+  margin-inline: 21rem;
+}
+
+.team-title h1 {
+  text-align: center;
+  padding-top: 55px;
+}
+
+.paper-fly {
+  position: absolute;
+  margin-inline: 78rem;
+  margin-block: -9rem;
+  width: 163px;
+  height: 89px;
+}
+
+.team-content {
+  display: -webkit-inline-box;
+  margin-top: 3rem;
+}
+
+.card-1 {
+  margin-right: 5rem;
+}
+
+.card-img-top-1 {
+  background-color: #f5c466;
+  height: 23rem;
+  width: 23rem !important;
+  border-radius: 12px !important;
+}
+
+.card-img-top-2 {
+  background-color: #a36eba;
+  height: 23rem;
+  width: 23rem !important;
+  border-radius: 12px !important;
+}
+
+.card-img-top-3 {
+  background-color: #68a3a2;
+  height: 23rem;
+  width: 23rem !important;
+  border-radius: 12px !important;
+}
+
+.card-1 h5,
+p {
+  margin: 1rem;
+}
+
+.card-content {
+  background-color: #fdfff0;
+}
+
+.card-body {
+  margin-top: 1px;
+}
+
+/* Price Section */
+#pricing {
+  background-color: #fdfff0;
+  height: 100vh;
+}
+
+.price-title {
+  text-align: center;
+}
+
+.price-icon {
+  align-self: center;
+  height: 120px;
+  width: 120px;
+  padding: 5px;
+  margin: 45px;
+}
+
+.icon-text {
+  text-align: center;
+  margin: 10px;
+}
+
+footer {
+  padding: 7em 0;
+}
+
+.footer-07 {
+  background: #b386c0;
+}
+.footer-07 a {
+  color: #fff;
+}
+.footer-07 p {
+  color: #fff;
+}
+.footer-07 .footer-heading {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.footer-07 .footer-heading .logo {
+  color: #fff;
+}
+.footer-07 .menu {
+  margin-bottom: 30px;
+}
+.footer-07 .menu a {
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.footer-07 .ftco-footer-social li a {
+  background: transparent;
+  border: 1px solid #a3de83;
+}
